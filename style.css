@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Della+Respira&display=swap');
+
+ * {
+    font-family: 'Della Respira', serif;
+ }
+
+html {
+    height: 100%
+}
+
+body {
+    background-color: #778899;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+svg {
+    background-color: #FFFFE0;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    padding: 10px;
+}
+.bar {
+    background-color: teal;
+    border-color:teal;
+    fill: teal
+}
+.bar:hover {
+    fill: #17252A;
+}
+g {
+    color: #17252A;
+}
+
+#tooltip {
+    margin-top: 10px;
+    color: #feffff;
+    font-size: 28px;
+    
+}
+
+#title {
+    font-size: 30px;
+    fill: #17252A;
+
+}
